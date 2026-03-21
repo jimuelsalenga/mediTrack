@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { toast } from "sonner";
 // Import your logo here
-import neuLogo from "@/assets/neu-logo.svg"; 
+import neuLogo from "@/assets/neu-logo.png"; 
 
 const Index = () => {
   const [email, setEmail] = useState("");
