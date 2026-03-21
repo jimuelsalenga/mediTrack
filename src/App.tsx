@@ -8,7 +8,7 @@ import { SubmissionsProvider } from "@/context/SubmissionsContext";
 import ProtectedRoute from "@/components/ProtectedRoute";
 import Login from "@/pages/Index";
 import Dashboard from "@/pages/Dashboard";
-import StudentDashboard from "@/components/pages/Dashboard";
+import StudentDashboard from "@/pages/StudentDashboard";
 import StudentUpload from "@/pages/StudentUpload";
 import AdminQueue from "@/pages/AdminQueue";
 import Upload from "@/pages/Upload";
