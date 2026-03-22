@@ -17,7 +17,6 @@ interface AuthContextType {
 
 const MOCK_USERS: Record<string, { password: string; name: string; role: UserRole; studentId?: string }> = {
   "admin@neu.edu.ph": { password: "admin123", name: "Dr. Sarah Chen", role: "admin" },
-  "staff@neu.edu.ph": { password: "staff123", name: "Maya Bennett", role: "staff" },
   "student@neu.edu.ph": { password: "student123", name: "Maya Bennett", role: "student", studentId: "23-00000-000" },
 };
 
