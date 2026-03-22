@@ -16,10 +16,9 @@ interface AuthContextType {
 }
 
 const MOCK_USERS: Record<string, { password: string; name: string; role: UserRole; studentId?: string }> = {
-  "admin@meditrack.com": { password: "admin123", name: "Dr. Sarah Chen", role: "admin" },
-  "admin@email.com": { password: "admin123", name: "Dr. Sarah Chen", role: "admin" },
-  "staff@email.com": { password: "staff123", name: "Maya Bennett", role: "staff" },
-  "student@school.edu": { password: "student123", name: "Maya Bennett", role: "student", studentId: "STU-44291" },
+  "admin@neu.edu.ph": { password: "admin123", name: "Dr. Sarah Chen", role: "admin" },
+  "staff@neu.edu.ph": { password: "staff123", name: "Maya Bennett", role: "staff" },
+  "student@neu.edu.ph": { password: "student123", name: "Maya Bennett", role: "student", studentId: "23-00000-000" },
 };
 
 const AuthContext = createContext<AuthContextType | null>(null);

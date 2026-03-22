@@ -103,7 +103,7 @@ const StudentUpload = () => {
             <input
               value={studentId}
               onChange={(e) => setStudentId(e.target.value)}
-              placeholder="e.g. STU-44291"
+              placeholder="e.g. 23-00000-000"
               className="w-full h-11 rounded-xl border border-input bg-background px-4 text-sm text-foreground placeholder:text-muted-foreground/60 focus:outline-none focus:ring-2 focus:ring-ring"
             />
           </div>

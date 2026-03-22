@@ -50,7 +50,7 @@ const Index = () => {
               <label className="text-sm font-medium leading-none">Email Address</label>
               <Input 
                 type="email" 
-                placeholder="student@school.edu" 
+                placeholder="student@neu.edu.ph" 
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
@@ -71,7 +71,7 @@ const Index = () => {
             </Button>
           </form>
           <div className="mt-4 text-center text-xs text-muted-foreground">
-            Use: student@school.edu / student123
+            Use: student@neu.edu.ph / student123
           </div>
         </CardContent>
       </Card>

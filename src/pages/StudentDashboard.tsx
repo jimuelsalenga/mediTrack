@@ -25,7 +25,7 @@ const StudentDashboard = () => {
         {/* Status Header */}
         <div className="flex items-center justify-between">
           <h1 className="text-2xl font-bold text-foreground">Your Status</h1>
-          <span className="text-xs font-medium text-muted-foreground tracking-wider uppercase">Spring 2026</span>
+          <span className="text-xs font-medium text-muted-foreground tracking-wider uppercase">2026</span>
         </div>
 
         {/* Compliance Card */}

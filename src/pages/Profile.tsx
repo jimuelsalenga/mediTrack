@@ -9,7 +9,7 @@ const Profile = () => {
     { icon: IdCard, label: "ROLE", value: user?.role ? user.role.charAt(0).toUpperCase() + user.role.slice(1) : "—" },
     { icon: Stethoscope, label: "COMPLIANCE STATUS", value: "Approved" },
     { icon: FileText, label: "LATEST RECORD", value: "Chest X-Ray" },
-    { icon: Calendar, label: "TERM", value: "Spring 2026" },
+    { icon: Calendar, label: "TERM", value: "2026" },
   ];
 
   return (
