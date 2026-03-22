@@ -25,7 +25,7 @@ const INITIAL_SUBMISSIONS: Submission[] = [
   {
     id: "SUB-001",
     studentName: "Maya Bennett",
-    studentId: "STU-44291",
+    studentId: "23-00000-000",
     fileType: "X-Ray",
     fileName: "chest_xray_final.pdf",
     fileSizeMB: "2.4",
@@ -35,7 +35,7 @@ const INITIAL_SUBMISSIONS: Submission[] = [
   {
     id: "SUB-002",
     studentName: "James Rivera",
-    studentId: "STU-44290",
+    studentId: "23-00000-000",
     fileType: "Physical Exam",
     fileName: "physical_exam_spring.pdf",
     fileSizeMB: "1.1",
@@ -45,7 +45,7 @@ const INITIAL_SUBMISSIONS: Submission[] = [
   {
     id: "SUB-003",
     studentName: "Aisha Patel",
-    studentId: "STU-44289",
+    studentId: "23-00000-000",
     fileType: "Vaccination Record",
     fileName: "vaccination_record.jpg",
     fileSizeMB: "0.8",
@@ -55,7 +55,7 @@ const INITIAL_SUBMISSIONS: Submission[] = [
   {
     id: "SUB-004",
     studentName: "Carlos Diaz",
-    studentId: "STU-44288",
+    studentId: "23-00000-000",
     fileType: "X-Ray",
     fileName: "xray_scan.png",
     fileSizeMB: "3.2",
